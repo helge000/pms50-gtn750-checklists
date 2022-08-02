@@ -1,0 +1,600 @@
+[
+    {
+        "name": "Normal Checklists",
+        "checklists": [
+            {
+                "name": "Before Engine Start",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Parking Brake",
+                        "comment": "",
+                        "response": "Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Canopy",
+                        "comment": "",
+                        "response": "Closed and locked"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Selectors",
+                        "comment": "",
+                        "response": "Reserve"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pumps",
+                        "comment": "",
+                        "response": "Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "Cracked"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Propellers",
+                        "comment": "",
+                        "response": "Full Forward"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixture",
+                        "comment": "",
+                        "response": "Idle Cut-Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Feathering Switches",
+                        "comment": "",
+                        "response": "Normal"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Altimeter",
+                        "comment": "Bug: Baro knob currently inop",
+                        "response": "Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Flaps",
+                        "comment": "",
+                        "response": "Up"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Control Surfaces",
+                        "comment": "",
+                        "response": "Checked and Free"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Gear Wanring Light",
+                        "comment": "",
+                        "response": "Test"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Wing Tanks Low Fuel Lights",
+                        "comment": "",
+                        "response": "Test"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Oxygen Pressure and Quantity",
+                        "comment": "",
+                        "response": "Check"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Oxygen Shutoff Valve",
+                        "comment": "",
+                        "response": "Open, Close"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Observe Blinker when Valve open: Active"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Aileron Booster",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "WARNING",
+                        "text": "Aileron Booster: Do not turn on while in flight!"
+                    }
+                ]
+            },
+            {
+                "name": "Engine Start",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Battery",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Magnetos",
+                        "comment": "",
+                        "response": "Both"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Master Magneto",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Generators",
+                        "comment": "",
+                        "response": "On, Guards closed"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "",
+                        "response": "Full forward"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pumps",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Observe Fuel pressure: Minimum 14 PSI"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Oil Cooler Flaps",
+                        "comment": "",
+                        "response": "Atomatic or Open"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Intercooler Flaps",
+                        "comment": "",
+                        "response": "Open"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Startup Left Engine"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Left Engine Primer",
+                        "comment": "Hold longer in colder weather",
+                        "response": "Hold 2 to 4 Seconds"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Left Engine Energizer",
+                        "comment": "",
+                        "response": "Hold UP 5 Seconds"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Left Engine Starter",
+                        "comment": "Do that quickly after Engergizer",
+                        "response": "Hold UP to Start"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Throttle: 1000 RPM"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Oil pressure, Oil and Coolent Temps: Rising"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Startup Right Engine"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Right Engine Primer",
+                        "comment": "Hold longer in colder weather",
+                        "response": "Hold 2 to 4 Seconds"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Right Engine Energizer",
+                        "comment": "",
+                        "response": "Hold UP 5 Seconds"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Right Engine Starter",
+                        "comment": "Do that quickly after Engergizer",
+                        "response": "Hold UP to Start"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Throttle: 1000 RPM"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Oil pressure, Oil and Coolent Temps: Rising"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "1000 RPM"
+                    }
+                ]
+            },
+            {
+                "name": "After Engine Start",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "Top most square",
+                        "response": "Auto Ritch"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Air Filter",
+                        "comment": "",
+                        "response": "As required"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "1600 RPM, then 1000 RPM"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Generator trip: 2x 25 Amperes"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Pitot Heat",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Wing Lights",
+                        "comment": "",
+                        "response": "Bright"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Tail Lights",
+                        "comment": "",
+                        "response": "Bright"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Landing Light",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Compass Switch",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Oil Shutters",
+                        "comment": "",
+                        "response": "Auto"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Parking Brake",
+                        "comment": "",
+                        "response": "Release"
+                    }
+                ]
+            },
+            {
+                "name": "Run-up Check",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Parking Brake",
+                        "comment": "",
+                        "response": "Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Rudder trim",
+                        "comment": "",
+                        "response": "0 Degrees"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Rudder trim",
+                        "comment": "",
+                        "response": "0 Degrees"
+                    },                    {
+                        "type": "CHALLENGE",
+                        "text": "Elevator trim",
+                        "comment": "",
+                        "response": "3 Degrees UP"
+                    },                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pumps",
+                        "comment": "",
+                        "response": "Emergency"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "Top most square",
+                        "response": "Auto Ritch"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Propellers",
+                        "comment": "",
+                        "response": "Full Forward"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Engine Run-up"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "2300 RPM"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Oil and Fuel pressure, Oil and Coolent Temps: Green"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Magneto Check",
+                        "comment": "",
+                        "response": "2, BOTH , 1, BOTH"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Observe RPM Drop: 50-100 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Magneto Master",
+                        "comment": "",
+                        "response": "OFF, ON"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Lever",
+                        "comment": "Cold Prop: Do this two times",
+                        "response": "2100 RPM, then Full Forward"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Voltmeter: 28 Volts"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Ammeters: 2 x 25 Amperes"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Check Hydraulic Pressure",
+                        "comment": "",
+                        "response": "1300 PSI"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "THrottles",
+                        "comment": "",
+                        "response": "Reduce to 1000 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Windows and Canopy",
+                        "comment": "",
+                        "response": "Shut and Locked"
+                    },
+                    {
+                        "type": "WARNING",
+                        "text": "Severe Buffeting unless Windows closed"
+                    }
+                ]
+            },
+            {
+                "name": "Take Off",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Breaks",
+                        "comment": "",
+                        "response": "Hold"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "44 inches MP"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Observe Propeller Governor: 3000 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Breaks",
+                        "comment": "",
+                        "response": "Release at 3000 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles Military",
+                        "comment": "",
+                        "response": "54 inches MP"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Rotate",
+                        "comment": "",
+                        "response": "80 MPH"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Lift Off",
+                        "comment": "",
+                        "response": "100 MPH"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Gear",
+                        "comment": "",
+                        "response": "Up"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Check Hydraulic Pressure",
+                        "comment": "",
+                        "response": "1300 PSI"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Air Filter",
+                        "comment": "Top most square",
+                        "response": "Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "METO Power",
+                        "comment": "",
+                        "response": "45 inches MP at 500ft AGL for 15 Seconds"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Climb Speed",
+                        "comment": "",
+                        "response": "155 - 175 MPH"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Set Climb Power (Max Coninious Power)",
+                        "comment": "",
+                        "response": "44 inches MP, 2300 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pump",
+                        "comment": "",
+                        "response": "Normal"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Intercooler Shutters",
+                        "comment": "",
+                        "response": "Auto / Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Selectors",
+                        "comment": "",
+                        "response": "Drop, Wing or Main Tanks after 15min"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pump",
+                        "comment": "Lower power before swiching tanks",
+                        "response": "Emergency over FL100 or for Wing tanks"
+                    }
+                ]
+            },
+            {
+                "name": "Cruise Power",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Trottle",
+                        "comment": "",
+                        "response": "30 inches MP"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Propellers",
+                        "comment": "",
+                        "response": "1900 - 2300 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "Lower most square",
+                        "response": "Auto Lean"
+                    }
+                ]
+            },
+            {
+                "name": "Approach",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Propellers",
+                        "comment": "",
+                        "response": "2600 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "Top most square",
+                        "response": "Auto Ritch"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Reduce Speed: 160 MPH"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Seletors",
+                        "comment": "",
+                        "response": "Fullest Tanks"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Pumps",
+                        "comment": "",
+                        "response": "Emergency"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Flaps",
+                        "comment": "",
+                        "response": "Down"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Gear",
+                        "comment": "",
+                        "response": "Down"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Check Hydraulic Pressure: 900, then 1300 PSI"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Gear Warning Light: On"
+                    }
+                ]
+            }
+        ]
+    }
+]
