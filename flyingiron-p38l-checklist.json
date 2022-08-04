@@ -62,8 +62,14 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Clock",
-                        "comment": "",
+                        "comment": "Knob inop",
                         "response": "Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Radios",
+                        "comment": "And in our case, Transponder as well",
+                        "response": "Off"
                     },
                     {
                         "type": "CHALLENGE",
@@ -91,12 +97,6 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Fuel Quantity",
-                        "comment": "",
-                        "response": "Checked"
-                    },
-                    {
-                        "type": "CHALLENGE",
                         "text": "Oxygen Shutoff Valve",
                         "comment": "",
                         "response": "Open, Close"
@@ -108,7 +108,7 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Aileron Booster",
-                        "comment": "",
+                        "comment": "On: DOWN position",
                         "response": "On"
                     },
                     {
@@ -154,7 +154,7 @@
                         "type": "CHALLENGE",
                         "text": "Bomb/Drop Tank Arming Switches",
                         "comment": "Only when Drop tanks attached",
-                        "response": "Safe"
+                        "response": "On (Safe)"
                     },
                     {
                         "type": "NOTE",
@@ -199,25 +199,27 @@
                         "text": "Startup Left Engine"
                     },
                     {
-                        "type": "CHALLENGE",
-                        "text": "Left Engine Primer",
-                        "comment": "Hold longer in colder weather",
-                        "response": "Hold 2 to 4 Seconds"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Left Engine Energizer",
-                        "comment": "",
-                        "response": "Hold UP 5 Seconds"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Left Engine Starter",
-                        "comment": "Do that quickly after Energizer",
-                        "response": "Hold UP to Start"
+                        "type": "TEXT",
+                        "text": "Prime more in colder temperatures"
                     },
                     {
                         "type": "NOTE",
+                        "text": "Left Engine Primer: Hold 2 to 4 Seconds"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Left Engine Energizer: Hold UP 5 Seconds"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Hold Starter quickly to prevent flywheel from spinning down"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Left Engine Starter: Hold UP to Start"
+                    },
+                    {
+                        "type": "WARNING",
                         "text": "Check Oil pressure, Oil and Coolant Temps: Rising"
                     },
                     {
@@ -225,25 +227,23 @@
                         "text": "Startup Right Engine"
                     },
                     {
-                        "type": "CHALLENGE",
-                        "text": "Right Engine Primer",
-                        "comment": "Hold longer in colder weather",
-                        "response": "Hold 2 to 4 Seconds"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Right Engine Energizer",
-                        "comment": "",
-                        "response": "Hold UP 5 Seconds"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Right Engine Starter",
-                        "comment": "Do that quickly after Energizer",
-                        "response": "Hold UP to Start"
+                        "type": "NOTE",
+                        "text": "Right Engine Primer: Hold 2 to 4 Seconds"
                     },
                     {
                         "type": "NOTE",
+                        "text": "Right Engine Energizer: Hold UP 5 Seconds"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Toggle Starter quickly to prevent flywheel from spinning down"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Right Engine Starter: Hold DOWN to Start"
+                    },
+                    {
+                        "type": "WARNING",
                         "text": "Check Oil pressure, Oil and Coolant Temps: Rising"
                     },
                     {
@@ -251,6 +251,10 @@
                         "text": "Throttles",
                         "comment": "",
                         "response": "1000 RPM"
+                    },
+                    {
+                        "type": "CAUTION",
+                        "text": "Shutdown Engines if Oil Pressure does not register within 30 seconds"
                     }
                 ]
             },
@@ -271,31 +275,39 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Vacuum Suction",
+                        "text": "Radios",
+                        "comment": "And in our case, Transponder as well",
+                        "response": "On and Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Vacuum Suction Gage",
                         "comment": "",
-                        "response": "Between 4 and 6 PSI"
+                        "response": "About 4 PSI"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Landing Gear Warning Light",
                         "comment": "",
-                        "response": "Test"
+                        "response": "Tested"
                     },
 					{
                         "type": "CHALLENGE",
                         "text": "Outer Wing Fuel Warning Lights",
                         "comment": "",
-                        "response": "Test"
+                        "response": "Tested"
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Throttles",
+                        "text": "Fuel Quantities",
                         "comment": "",
-                        "response": "1600 RPM, then 1000 RPM"
+                        "response": "Checked"
                     },
                     {
-                        "type": "NOTE",
-                        "text": "Check Generator trip: 2x 25 Amperes, then 2x 0 Amperes"
+                        "type": "CHALLENGE",
+                        "text": "Toggle Flaps Down and Up",
+                        "comment": "Test Hydraulic Pump operation",
+                        "response": "Up"
                     },
                     {
                         "type": "CHALLENGE",
@@ -317,12 +329,6 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Landing Light",
-                        "comment": "",
-                        "response": "On"
-                    },
-                    {
-                        "type": "CHALLENGE",
                         "text": "Compass Switch",
                         "comment": "",
                         "response": "On"
@@ -335,14 +341,68 @@
                     },
                     {
                         "type": "CHALLENGE",
+                        "text": "Prop Feathering Switches",
+                        "comment": "",
+                        "response": "Tested"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Do let the propellers feather completely"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Engine Warm Up"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Coolant Temps: min 85°C"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Oil Temps: min 40°C"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Fuel Pressure: 16-18 PSI"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Hydraulic Pressure: 1100 - 1400 PSI"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttles",
+                        "comment": "",
+                        "response": "1600 RPM, then 1000 RPM"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Check Generator trip: 2x 25 Amperes, then 2x 0 Amperes"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Taxi"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Landing Light",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
                         "text": "Parking Brake",
                         "comment": "",
                         "response": "Release"
+                    },
+                    {
+                        "type": "TEXT",
+                        "text": "Ready for taxi"
                     }
                 ]
             },
             {
-                "name": "Run-up Check",
+                "name": "Run-up",
                 "items": [
                     {
                         "type": "SUBTITLE",
@@ -402,7 +462,7 @@
                         "type": "CHALLENGE",
                         "text": "Magneto Check",
                         "comment": "",
-                        "response": "2, BOTH, 1, BOTH, OFF, BOTH"
+                        "response": "2, BOTH, 1, BOTH"
                     },
                     {
                         "type": "NOTE",
@@ -411,7 +471,6 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Prop Lever",
-                        "comment": "Cold Prop: Do this two times",
                         "response": "2100 RPM, then Full Forward"
                     },
                     {
@@ -420,7 +479,7 @@
                     },
                     {
                         "type": "NOTE",
-                        "text": "Check Ammeters: 2 x 25 Amperes"
+                        "text": "Check Ammeters: Below 50 Amperes"
                     },
                     {
                         "type": "CHALLENGE",
@@ -430,8 +489,8 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "THrottles",
-                        "comment": "",
+                        "text": "Throttles",
+                        "comment": "Lower RPM will cause spark plug fouling",
                         "response": "Reduce to minimum 1200 RPM"
                     },
                     {
@@ -501,15 +560,14 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Flaps",
-                        "comment": "",
-                        "response": "Up"
+                        "text": "Air Filter",
+                        "response": "Off"
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Air Filter",
-                        "comment": "Top most square",
-                        "response": "Off"
+                        "text": "Flaps",
+                        "comment": "",
+                        "response": "Up"
                     },
                     {
                         "type": "CAUTION",
@@ -522,6 +580,12 @@
                     {
                         "type": "SUBTITLE",
                         "text": "Climb"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Airspeed 130 MPH or higher",
+                        "comment": "",
+                        "response": "Checked"
                     },
                     {
                         "type": "CHALLENGE",
@@ -543,7 +607,7 @@
                         "type": "CHALLENGE",
                         "text": "Bomb/Drop Tank Arming Switches",
                         "comment": "Only when Drop tanks attached",
-                        "response": "On"
+                        "response": "Safe / Off"
                     },
                     {
                         "type": "CHALLENGE",
@@ -559,7 +623,7 @@
                     },
                     {
                         "type": "NOTE",
-                        "text": "Decrease Power Settings prior switching tanks"
+                        "text": "Decrease Power Settings prior to switching tanks to prevent engine backfire"
                     }
                 ]
             },
@@ -593,8 +657,43 @@
                 ]
             },
             {
+                "name": "Decent",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttle",
+                        "comment": "Prevent engine misfires",
+                        "response": "Not below 20 inches MP"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Propellers",
+                        "comment": "",
+                        "response": "2600 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixtures",
+                        "comment": "Top most square",
+                        "response": "Auto Rich"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Intercooler Shutters",
+                        "comment": "",
+                        "response": "Closed / As required"
+                    }
+                ]
+            },
+            {
                 "name": "Approach",
                 "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Intercooler Shutters",
+                        "comment": "Not required during cold weather",
+                        "response": "Open"
+                    },
                     {
                         "type": "CHALLENGE",
                         "text": "Propellers",
@@ -623,11 +722,15 @@
                         "type": "CHALLENGE",
                         "text": "Bomb/Drop Tank Arming Switches",
                         "comment": "Only when Drop tanks attached",
-                        "response": "Safe"
+                        "response": "On (Safe)"
                     },
                     {
                         "type": "NOTE",
-                        "text": "Reduce Speed: 160 MPH"
+                        "text": "Reduce Speed: 160 MPH for Pattern"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Turn Base: 150 MPH"
                     },
                     {
                         "type": "CHALLENGE",
@@ -648,18 +751,73 @@
                         "response": "Down"
                     },
                     {
-                        "type": "CHALLENGE",
-                        "text": "Gear Warning Light",
-                        "comment": "",
-                        "response": "On"
-                    },
-                    {
                         "type": "WARNING",
                         "text": "Check Hydraulic Pressure: 900, then 1300 PSI"
                     },
                     {
+                        "type": "SUBTITLE",
+                        "text": "Final & Landing"
+                    },
+                    {
                         "type": "NOTE",
-                        "text": "Touch Down: 100 MPH"
+                        "text": "Final: 130 MPH"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Over the fence: 110 MPH"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Touch Down: 90 MPH"
+                    },
+                    {
+                        "type": "CAUTION",
+                        "text": "Braking: Use only intermittent braking action"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Flaps: Do not retract until you come to full stop"
+                    }
+                ]
+            },
+            {
+                "name": "After Landing",
+                "items": [
+                    {
+                        "type": "NOTE",
+                        "text": "Flaps: Up"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Taxi: Carefully with intermittent braking"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Shutdown Engines"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Hold Throttles at 1600 RPM for a few seconds"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Return Throttles to 1200 RPM"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Mixture: Idle Cut-Off"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Throttle: Open when engine stops firing"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Turn off all switches when Propellers stop rotating"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Fuel Selectors: Off"
                     }
                 ]
             }
@@ -741,8 +899,8 @@
                         "response": "Cracked"
                     },
                     {
-                        "tyoe": "SUBTITLE",
-                        "text": "Single Engine Operation"
+                        "type": "SUBTITLE",
+                        "text": "Single Engine Flight"
                     },
                     {
                         "type": "CAUTION",
@@ -825,13 +983,13 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Gear",
-                        "comment": "Expect about 30 seconds lower Gear",
+                        "comment": "Expect about 30 seconds to lower Gear with one hydraulic pump",
                         "response": "Down"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Flaps",
-                        "response": "One notch"
+                        "response": "Maneuvering"
                     },
                     {
                         "type": "SUBTITLE",
@@ -861,7 +1019,7 @@
                         "type": "CHALLENGE",
                         "text": "Flaps",
                         "comment": "Extend only when you are sure to make the field",
-                        "response": "Full"
+                        "response": "Down"
                     },
                     {
                         "type": "NOTE",
