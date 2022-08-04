@@ -25,7 +25,7 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Fuel Pumps",
+                        "text": "Fuel Booster Pumps",
                         "comment": "",
                         "response": "Off"
                     },
@@ -61,7 +61,19 @@
                     },
                     {
                         "type": "CHALLENGE",
+                        "text": "Clock",
+                        "comment": "",
+                        "response": "Set"
+                    },
+                    {
+                        "type": "CHALLENGE",
                         "text": "Flaps",
+                        "comment": "",
+                        "response": "Up"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Dive Flaps",
                         "comment": "",
                         "response": "Up"
                     },
@@ -73,21 +85,15 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Gear Wanring Light",
-                        "comment": "",
-                        "response": "Test"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Wing Tanks Low Fuel Lights",
-                        "comment": "",
-                        "response": "Test"
-                    },
-                    {
-                        "type": "CHALLENGE",
                         "text": "Oxygen Pressure and Quantity",
                         "comment": "",
-                        "response": "Check"
+                        "response": "Checked"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Quantity",
+                        "comment": "",
+                        "response": "Checked"
                     },
                     {
                         "type": "CHALLENGE",
@@ -96,8 +102,8 @@
                         "response": "Open, Close"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Observe Blinker when Valve open: Active"
+                        "type": "NOTE",
+                        "text": "Observe Blinker while Valve open: Active"
                     },
                     {
                         "type": "CHALLENGE",
@@ -106,7 +112,7 @@
                         "response": "On"
                     },
                     {
-                        "type": "WARNING",
+                        "type": "CAUTION",
                         "text": "Aileron Booster: Do not turn on while in flight!"
                     }
                 ]
@@ -140,25 +146,47 @@
                     },
                     {
                         "type": "CHALLENGE",
+                        "text": "Bomb/Drop Tank Master Switch",
+                        "comment": "Only when Drop tanks attached",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Bomb/Drop Tank Arming Switches",
+                        "comment": "Only when Drop tanks attached",
+                        "response": "Safe"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "For safety reasons, pilots should only drop tanks when flying above 1000ft AGL"
+                    },
+                    {
+                        "type": "CHALLENGE",
                         "text": "Mixtures",
                         "comment": "",
                         "response": "Full forward"
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Fuel Pumps",
+                        "text": "Fuel Booster Pumps",
                         "comment": "",
                         "response": "On"
                     },
                     {
-                        "type": "TEXT",
+                        "type": "NOTE",
                         "text": "Observe Fuel pressure: Minimum 14 PSI"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Oil Cooler Flaps",
                         "comment": "",
-                        "response": "Atomatic or Open"
+                        "response": "Automatic or Open"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Coolant Flap Override",
+                        "comment": "",
+                        "response": "Off"
                     },
                     {
                         "type": "CHALLENGE",
@@ -185,16 +213,12 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Left Engine Starter",
-                        "comment": "Do that quickly after Engergizer",
+                        "comment": "Do that quickly after Energizer",
                         "response": "Hold UP to Start"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Throttle: 1000 RPM"
-                    },
-                    {
-                        "type": "TEXT",
-                        "text": "Check Oil pressure, Oil and Coolent Temps: Rising"
+                        "type": "NOTE",
+                        "text": "Check Oil pressure, Oil and Coolant Temps: Rising"
                     },
                     {
                         "type": "SUBTITLE",
@@ -215,16 +239,12 @@
                     {
                         "type": "CHALLENGE",
                         "text": "Right Engine Starter",
-                        "comment": "Do that quickly after Engergizer",
+                        "comment": "Do that quickly after Energizer",
                         "response": "Hold UP to Start"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Throttle: 1000 RPM"
-                    },
-                    {
-                        "type": "TEXT",
-                        "text": "Check Oil pressure, Oil and Coolent Temps: Rising"
+                        "type": "NOTE",
+                        "text": "Check Oil pressure, Oil and Coolant Temps: Rising"
                     },
                     {
                         "type": "CHALLENGE",
@@ -241,13 +261,31 @@
                         "type": "CHALLENGE",
                         "text": "Mixtures",
                         "comment": "Top most square",
-                        "response": "Auto Ritch"
+                        "response": "Auto Rich"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Air Filter",
-                        "comment": "",
+                        "comment": "Turn on for dusty ground operations",
                         "response": "As required"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Vacuum Suction",
+                        "comment": "",
+                        "response": "Between 4 and 6 PSI"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Landing Gear Warning Light",
+                        "comment": "",
+                        "response": "Test"
+                    },
+					{
+                        "type": "CHALLENGE",
+                        "text": "Outer Wing Fuel Warning Lights",
+                        "comment": "",
+                        "response": "Test"
                     },
                     {
                         "type": "CHALLENGE",
@@ -256,8 +294,8 @@
                         "response": "1600 RPM, then 1000 RPM"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Check Generator trip: 2x 25 Amperes"
+                        "type": "NOTE",
+                        "text": "Check Generator trip: 2x 25 Amperes, then 2x 0 Amperes"
                     },
                     {
                         "type": "CHALLENGE",
@@ -291,7 +329,7 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Oil Shutters",
+                        "text": "Oil Cooler Flaps",
                         "comment": "",
                         "response": "Auto"
                     },
@@ -307,6 +345,10 @@
                 "name": "Run-up Check",
                 "items": [
                     {
+                        "type": "SUBTITLE",
+                        "text": "Preparation"
+                    },
+                    {
                         "type": "CHALLENGE",
                         "text": "Parking Brake",
                         "comment": "",
@@ -320,17 +362,13 @@
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Rudder trim",
-                        "comment": "",
-                        "response": "0 Degrees"
-                    },                    {
-                        "type": "CHALLENGE",
                         "text": "Elevator trim",
                         "comment": "",
-                        "response": "3 Degrees UP"
-                    },                    {
+                        "response": "Between 3 and 5 Degrees UP"
+                    },
+                    {
                         "type": "CHALLENGE",
-                        "text": "Fuel Pumps",
+                        "text": "Fuel Booster Pumps",
                         "comment": "",
                         "response": "Emergency"
                     },
@@ -338,7 +376,7 @@
                         "type": "CHALLENGE",
                         "text": "Mixtures",
                         "comment": "Top most square",
-                        "response": "Auto Ritch"
+                        "response": "Auto Rich"
                     },
                     {
                         "type": "CHALLENGE",
@@ -357,24 +395,18 @@
                         "response": "2300 RPM"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Check Oil and Fuel pressure, Oil and Coolent Temps: Green"
+                        "type": "NOTE",
+                        "text": "Check Oil and Fuel pressure and Temps: Green"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Magneto Check",
                         "comment": "",
-                        "response": "2, BOTH , 1, BOTH"
+                        "response": "2, BOTH, 1, BOTH, OFF, BOTH"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Observe RPM Drop: 50-100 RPM"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Magneto Master",
-                        "comment": "",
-                        "response": "OFF, ON"
+                        "type": "NOTE",
+                        "text": "Check RPM Drop: 50-100 RPM"
                     },
                     {
                         "type": "CHALLENGE",
@@ -383,11 +415,11 @@
                         "response": "2100 RPM, then Full Forward"
                     },
                     {
-                        "type": "TEXT",
+                        "type": "NOTE",
                         "text": "Check Voltmeter: 28 Volts"
                     },
                     {
-                        "type": "TEXT",
+                        "type": "NOTE",
                         "text": "Check Ammeters: 2 x 25 Amperes"
                     },
                     {
@@ -400,7 +432,7 @@
                         "type": "CHALLENGE",
                         "text": "THrottles",
                         "comment": "",
-                        "response": "Reduce to 1000 RPM"
+                        "response": "Reduce to minimum 1200 RPM"
                     },
                     {
                         "type": "CHALLENGE",
@@ -427,23 +459,21 @@
                         "type": "CHALLENGE",
                         "text": "Throttles",
                         "comment": "",
-                        "response": "44 inches MP"
+                        "response": "54 inches MP"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Observe Propeller Governor: 3000 RPM"
+                        "type": "WARNING",
+                        "text": "Check Propeller Governor: 3000 RPM"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Take Off Roll"
                     },
                     {
                         "type": "CHALLENGE",
                         "text": "Breaks",
                         "comment": "",
                         "response": "Release at 3000 RPM"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Throttles Military",
-                        "comment": "",
-                        "response": "54 inches MP"
                     },
                     {
                         "type": "CHALLENGE",
@@ -471,33 +501,49 @@
                     },
                     {
                         "type": "CHALLENGE",
+                        "text": "Flaps",
+                        "comment": "",
+                        "response": "Up"
+                    },
+                    {
+                        "type": "CHALLENGE",
                         "text": "Air Filter",
                         "comment": "Top most square",
                         "response": "Off"
                     },
                     {
-                        "type": "CHALLENGE",
-                        "text": "METO Power",
-                        "comment": "",
-                        "response": "45 inches MP at 500ft AGL for 15 Seconds"
+                        "type": "CAUTION",
+                        "text": "Accelerate to 130 MPH before reducing power"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Climb Speed",
-                        "comment": "",
-                        "response": "155 - 175 MPH"
+                        "type": "NOTE",
+                        "text": "Minimum Single Engine Speed: 130 MPH, clean"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Climb"
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Set Climb Power (Max Coninious Power)",
-                        "comment": "",
+                        "text": "Set Climb Power",
+                        "comment": "Max Continuous Power",
                         "response": "44 inches MP, 2300 RPM"
                     },
                     {
+                        "type": "NOTE",
+                        "text": "Climb Speed: 155 - 175 MPH"
+                    },
+                    {
                         "type": "CHALLENGE",
-                        "text": "Fuel Pump",
+                        "text": "Fuel Booster Pump",
                         "comment": "",
                         "response": "Normal"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Bomb/Drop Tank Arming Switches",
+                        "comment": "Only when Drop tanks attached",
+                        "response": "On"
                     },
                     {
                         "type": "CHALLENGE",
@@ -512,10 +558,8 @@
                         "response": "Drop, Wing or Main Tanks after 15min"
                     },
                     {
-                        "type": "CHALLENGE",
-                        "text": "Fuel Pump",
-                        "comment": "Lower power before swiching tanks",
-                        "response": "Emergency over FL100 or for Wing tanks"
+                        "type": "NOTE",
+                        "text": "Decrease Power Settings prior switching tanks"
                     }
                 ]
             },
@@ -524,9 +568,9 @@
                 "items": [
                     {
                         "type": "CHALLENGE",
-                        "text": "Trottle",
+                        "text": "Throttle",
                         "comment": "",
-                        "response": "30 inches MP"
+                        "response": "Between 25 - 30 inches MP"
                     },
                     {
                         "type": "CHALLENGE",
@@ -539,6 +583,12 @@
                         "text": "Mixtures",
                         "comment": "Lower most square",
                         "response": "Auto Lean"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Intercooler Shutters",
+                        "comment": "",
+                        "response": "Closed"
                     }
                 ]
             },
@@ -555,21 +605,33 @@
                         "type": "CHALLENGE",
                         "text": "Mixtures",
                         "comment": "Top most square",
-                        "response": "Auto Ritch"
+                        "response": "Auto Rich"
                     },
                     {
-                        "type": "TEXT",
+                        "type": "CHALLENGE",
+                        "text": "Fuel Selectors",
+                        "comment": "",
+                        "response": "Fullest Main/Reserve Tanks"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Bomb/Drop Tank Master Switch",
+                        "comment": "Only when Drop tanks attached",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Bomb/Drop Tank Arming Switches",
+                        "comment": "Only when Drop tanks attached",
+                        "response": "Safe"
+                    },
+                    {
+                        "type": "NOTE",
                         "text": "Reduce Speed: 160 MPH"
                     },
                     {
                         "type": "CHALLENGE",
-                        "text": "Fuel Seletors",
-                        "comment": "",
-                        "response": "Fullest Tanks"
-                    },
-                    {
-                        "type": "CHALLENGE",
-                        "text": "Fuel Pumps",
+                        "text": "Fuel Booster Pumps",
                         "comment": "",
                         "response": "Emergency"
                     },
@@ -586,15 +648,235 @@
                         "response": "Down"
                     },
                     {
-                        "type": "TEXT",
+                        "type": "CHALLENGE",
+                        "text": "Gear Warning Light",
+                        "comment": "",
+                        "response": "On"
+                    },
+                    {
+                        "type": "WARNING",
                         "text": "Check Hydraulic Pressure: 900, then 1300 PSI"
                     },
                     {
-                        "type": "TEXT",
-                        "text": "Gear Warning Light: On"
+                        "type": "NOTE",
+                        "text": "Touch Down: 100 MPH"
                     }
                 ]
             }
         ]
+    },
+    {
+        "name": "Emergency Checklists",
+         "checklists": [
+            {
+                "name": "Single Engine Operation",
+                "items": [
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Memory Items"
+                    },
+                    {
+                        "type": "CAUTION",
+                        "text": "Expect severe yaw moment"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Apply Rudder",
+                        "comment": "Counter running engine yaw",
+                        "response": "Applied"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Reduce Power of Running Engine",
+                        "response": "Reduced"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Rudder Trim",
+                        "comment": "Counter running engine yaw",
+                        "response": "Trimmed"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Failed engine items"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixture",
+                        "response": "Idle Cut-Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Lever",
+                        "response": "Full Backward"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Feathering Switch",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Booster Pump",
+                        "response": "Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Bombs / Drop Tanks",
+                        "response": "Dropped"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Selector",
+                        "response": "Off / Drop Tanks"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Magnetos",
+                        "response": "Off"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Throttle",
+                        "response": "Cracked"
+                    },
+                    {
+                        "tyoe": "SUBTITLE",
+                        "text": "Single Engine Operation"
+                    },
+                    {
+                        "type": "CAUTION",
+                        "text": "Always turn into the running engine!"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Power: Maintain 2600 RPM and 35 inches MP"
+                    }
+                ]
+            },
+            {
+                "name": "Restarting Engine Mid-Flight",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Fuel Booster Pumps",
+                        "response": "On"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Feathering Switch",
+                        "response": "Normal"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Prop Lever",
+                        "response": "Full Forward"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Windmilling: Wait for 1000 RPM"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Magnetos",
+                        "response": "Both"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Oil and Coolant Flaps",
+                        "response": "Automatic"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Mixture",
+                        "response": "Auto Rich"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Engine Startup"
+                    },
+                    {
+                        "type": "WARNING",
+                        "text": "Run Engine at 20 inches MP and 1500 RPM until coolant/oil reaches 85/50°C"
+                    }
+                ]
+            },
+            {
+                "name": "Single Engine Landing",
+                "items": [
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Aileron Booster",
+                        "comment": "Hydraulic Pressure reduced with only one Hydraulic Pump",
+                        "response": "Off"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "5nm out"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Speed: 160 MPH"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Altitude: 4000ft AGL"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Gear",
+                        "comment": "Expect about 30 seconds lower Gear",
+                        "response": "Down"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Flaps",
+                        "response": "One notch"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "Runway Threshold"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Speed: 150 MPH"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Altitude: 3500ft AGL"
+                    },
+                    {
+                        "type": "WARNING",
+                        "text": "Make complete Turn 360° into live Engine"
+                    },
+                    {
+                        "type": "SUBTITLE",
+                        "text": "1nm out"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Altitude: 1000ft AGL"
+                    },
+                    {
+                        "type": "CHALLENGE",
+                        "text": "Flaps",
+                        "comment": "Extend only when you are sure to make the field",
+                        "response": "Full"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Keep Airplane trimmed"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Threshold Speed: 110 MPH"
+                    },
+                    {
+                        "type": "NOTE",
+                        "text": "Make Normal Landing"
+                    }
+                ]
+            }
+         ]
     }
 ]
